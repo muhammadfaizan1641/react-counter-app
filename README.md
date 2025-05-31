@@ -1,12 +1,90 @@
-# React + Vite
+# React Counter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive counter application built with React and Vite. This project demonstrates the use of functional components, React hooks (`useState`), and modular CSS styling.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<details>
+  <summary><strong>Features</strong></summary>
 
-## Expanding the ESLint configuration
+- Interactive counter with increment, decrement, and reset functionalities
+- Clean and responsive UI
+- Component-based architecture
+- CSS modules with media queries for responsive design
+- Built with Vite for fast development
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+</details>
+
+---
+
+<details>
+  <summary><strong>Getting Started</strong></summary>
+
+### Prerequisites
+
+- Node.js (v18 or above recommended)
+- npm or yarn
+
+### Installation
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/muhammadfaizan1641/react-counter-app.git
+cd react-counter-app
+npm install
+</details>
+<details> <summary><strong>Running the App</strong></summary>
+To start the development server:
+
+bash
+Copy
+Edit
+npm run dev
+Open http://localhost:5173 in your browser to view the app.
+
+</details>
+<details> <summary><strong>Build for Production</strong></summary>
+To build the app for production:
+
+bash
+Copy
+Edit
+npm run build
+This will generate a dist/ folder containing the optimized production build.
+
+</details>
+<details> <summary><strong>Deployment</strong></summary>
+The app can be deployed using any static hosting service like Netlify, Vercel, or GitHub Pages.
+
+For example, to deploy on Netlify:
+
+Push your code to GitHub
+
+Connect the GitHub repo to Netlify
+
+Set the build command to npm run build and the publish directory to dist/
+
+</details>
+<details> <summary><strong>Folder Structure</strong></summary>
+pgsql
+Copy
+Edit
+react-counter-app/
+│
+├── public/
+├── src/
+│   ├── styles/
+│   │   ├── App.css
+│   │   └── Counter.css
+│   ├── App.jsx
+│   └── main.jsx
+├── package.json
+├── index.html
+└── README.md
+</details>
+<details> <summary><strong>License</strong></summary>
+This project is licensed under the MIT License.
+You are free to use, modify, and distribute it with proper attribution.
+
+</details> ```
