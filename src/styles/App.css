@@ -1,0 +1,38 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html,
+#root {
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f7fa;
+}
+
+
+html {
+  font-size: 16px;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+@media (max-width: 400px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  html {
+    font-size: 18px;
+  }
+}
